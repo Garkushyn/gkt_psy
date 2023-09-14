@@ -1,0 +1,107 @@
+h1 {
+    font-weight: 600;
+}
+
+.main__sub-title {
+    font-weight: 400;
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.main__list {
+    padding: 20px 0;
+}
+
+.main__list-item {
+    font-size: 20px;
+    text-align: left;
+}
+
+.box-69 {
+    background-position: center;
+}
+
+.price__sub-title {
+    margin: 0 auto;
+    max-width: 700px;
+}
+.price__item {
+    background: rgba(255, 255, 255, .7)!important;
+}
+
+.price__item--tint {
+    background: rgba(230, 245, 243, .7) !important;
+}
+
+.price__discount {
+    position: relative;
+}
+.price__discount:before {
+    content: "";
+    bottom: 100%;
+    left: 25%;
+    top: 30px;
+    height: 2px;
+    width: 50%;
+    position: absolute;
+    background-color: red;
+    transform: rotate(35deg);
+}
+
+.price__discount-text {
+    color: red;
+    padding-bottom: 20px;
+}
+
+.price__discount-price {
+    font-size: 57px;
+}
+
+.price__discount-size {
+    font-size: 35px;
+}
+
+.telegram {
+    background-image: url("../assets/img/socials/telegram.webp");
+    background-size: contain;
+}
+
+.viber {
+    background-image: url("../assets/img/socials/viber.webp");
+    background-size: contain;
+}
+
+.insta {
+    background-image: url("../assets/img/socials/instagram.webp");
+    background-size: contain;
+}
+
+@media (max-width: 435px) {
+    .sub-title {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .main__list {
+        padding: 10px 0;
+    }
+
+    .main__list-item {
+        font-size: 18px;
+    }
+
+    .main__sub-title {
+        font-size: 16px;
+    }
+
+    .main__text {
+        font-size: 17px;
+    }
+}
