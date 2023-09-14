@@ -1,6 +1,12 @@
 h1 {
     font-weight: 600;
 }
+.logo {
+    width: 150px;
+    height: 150px;
+    background-image: url("../assets/img/logo.png");
+    background-size: contain;
+}
 
 .main__sub-title {
     font-weight: 400;
