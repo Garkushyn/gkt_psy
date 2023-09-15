@@ -4,9 +4,7 @@ h1 {
 
 .logo {
     width: 130px;
-    /*height: 77px;*/
     height: 130px;
-    /*background-image: url("../assets/img/logo3.png");*/
     background-image: url("../assets/img/logo4.png");
     background-size: contain;
 }
@@ -109,6 +107,11 @@ h1 {
     .panel {
         padding-top: 0;
         padding-left: 0;
+    }
+
+    .logo {
+        width: 90px;
+        height: 90px;
     }
     .sub-title.sub-title {
         font-size: 16px;
