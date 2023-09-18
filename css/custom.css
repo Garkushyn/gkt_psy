@@ -157,6 +157,30 @@ h1 {
     background-size: contain;
 }
 
+.main--background {
+    background-image: url("../assets/img/bg/desktop/img-42.webp");
+}
+
+.about--background {
+    background-image: url("../assets/img/bg/desktop/img-27.webp");
+}
+
+.guarantees--background {
+    background-image: url("../assets/img/bg/desktop/img-49.webp");
+}
+
+.background--certificates {
+    background-image: url("../assets/img/bg/desktop/img-44.webp");
+}
+
+.background--price {
+    background-image: url("../assets/img/bg/desktop/img-55.webp");
+}
+
+.background--contacts {
+    background-image: url("../assets/img/bg/desktop/img-57.webp");
+}
+
 @media (max-width: 767px) {
     .panel {
         padding-top: 0;
@@ -199,5 +223,29 @@ h1 {
 
     .price__text {
         padding-top: 0;
+    }
+
+    .main--background {
+        background-image: url("../assets/img/bg/mobile/img-42.webp");
+    }
+
+    .about--background {
+        background-image: url("../assets/img/bg/mobile/img-27.webp");
+    }
+
+    .guarantees--background {
+        background-image: url("../assets/img/bg/mobile/img-49.webp");
+    }
+
+    .background--certificates {
+        background-image: url("../assets/img/bg/mobile/img-44.webp");
+    }
+
+    .background--price {
+        background-image: url("../assets/img/bg/mobile/img-55.webp");
+    }
+
+    .background--contacts {
+        background-image: url("../assets/img/bg/mobile/img-57.webp");
     }
 }
