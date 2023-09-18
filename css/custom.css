@@ -157,9 +157,9 @@ h1 {
     background-size: contain;
 }
 
-.main--background {
-    background-image: url("../assets/img/bg/desktop/img-42.webp");
-}
+/*.main--background {*/
+/*    background-image: url("../assets/img/bg/desktop/img-42.webp");*/
+/*}*/
 
 .about--background {
     background-image: url("../assets/img/bg/desktop/img-27.webp");
@@ -225,9 +225,9 @@ h1 {
         padding-top: 0;
     }
 
-    .main--background {
-        background-image: url("../assets/img/bg/mobile/img-42.webp");
-    }
+    /*.main--background {*/
+    /*    background-image: url("../assets/img/bg/mobile/img-42.webp");*/
+    /*}*/
 
     .about--background {
         background-image: url("../assets/img/bg/mobile/img-27.webp");
