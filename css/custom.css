@@ -6,14 +6,6 @@
     font-display: swap
 }
 
-/*@font-face {*/
-/*    font-family: "Source Sans Pro Light";*/
-/*    src: url("../assets/fonts/SourceSansPro/SourceSansPro-Light.ttf") format("truetype");*/
-/*    font-style: normal;*/
-/*    font-weight: normal;*/
-/*    font-display: swap*/
-/*}*/
-
 h1 {
     font-weight: 600;
 }
@@ -120,7 +112,7 @@ h1 {
 }
 .price__discount {
     position: relative;
-    font-family: "Source Sans Pro Light" , sans-serif;
+    font-family: "Source Sans Pro" , sans-serif;
 }
 .price__discount:before {
     content: "";
