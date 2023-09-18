@@ -2708,7 +2708,7 @@ html:not(.page-loaded) .slides.animated.scroll .slide {
   height: 100%;
   color: #fff;
   z-index: 500;
-  background: #222222;
+  background: #6e135a;
   -webkit-transition: visibility 0s, -webkit-transform 0.5s;
   transition: visibility 0s, -webkit-transform 0.5s;
   transition: transform 0.5s, visibility 0s;
@@ -3465,40 +3465,6 @@ html:not(.page-loaded) .slides.animated.scroll .slide {
   transition: transform 0.8s, opacity 0.8s, padding 0.5s, background 0.5s, border 0.5s, box-shadow 0.5s, -webkit-transform 0.8s;
 }
 
-.slides.animated.slow .panel {
-  -webkit-transition: opacity 1s, padding 0.5s, background 0.5s, border 0.5s, box-shadow 0.5s, -webkit-transform 1s;
-  transition: opacity 1s, padding 0.5s, background 0.5s, border 0.5s, box-shadow 0.5s, -webkit-transform 1s;
-  transition: transform 1s, opacity 1s, padding 0.5s, background 0.5s, border 0.5s, box-shadow 0.5s;
-  transition: transform 1s, opacity 1s, padding 0.5s, background 0.5s, border 0.5s, box-shadow 0.5s, -webkit-transform 1s;
-}
-
-/* EASING */
-.smooth .active,
-.smooth .selected,
-.smooth .panel,
-.smooth .sidebar {
-  -webkit-transition-timing-function: cubic-bezier(0.55, 0.05, 0.35, 0.95) !important;
-          transition-timing-function: cubic-bezier(0.55, 0.05, 0.35, 0.95) !important;
-}
-
-.bounce .active,
-.bounce .selected,
-.bounce .panel,
-.bounce .sidebar {
-  -webkit-transition-timing-function: cubic-bezier(0.4, 1.15, 0.35, 1) !important;
-          transition-timing-function: cubic-bezier(0.4, 1.15, 0.35, 1) !important;
-}
-
-/***
- *                                       _           _   ______ _                           _
- *         /\         ( )               | |         | | |  ___/| |                         | |
- *        /  \   _ __  _ _ __ ___   __ _| |_ ___  __| | | |___ | | ___ _ __ ___   ___ _ __ | |_ ___
- *       / /\ \ | '_ \| | '_ ` _ \ / _` | __/ _ \/ _` | |  __/ | |/ _ \ '_ ` _ \ / _ \ '_ \| __/ __/
- *      / ____ \| | | | | | | | | | (_| | ||  __/ (_| | | |____| |  __/ | | | | |  __/ | | | |_\__ \
- *     /_/    \_\_| |_|_|_| |_| |_|\__,_|\__\___/\__,_| |_____/|_|\___/_| |_| |_|\___/_| |_|\__|___/
- *
- *
- */
 .animated [class*="ae-"] {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
