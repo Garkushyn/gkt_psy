@@ -1,3 +1,10 @@
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url("../assets/fonts/SourceSansPro/SourceSansPro-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
 h1 {
     font-weight: 600;
 }
@@ -38,6 +45,42 @@ h1 {
 .guarantees__sub-title {
     max-width: 700px;
     margin: 0 auto;
+}
+
+.icon {
+    width: 70px;
+    height: 70px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+}
+.icon--position {
+    background-image: url("../assets/img/guarantees/position.webp");
+}
+
+.icon--reliability {
+    background-image: url("../assets/img/guarantees/reliability.webp");
+}
+
+.icon--support {
+    background-image: url("../assets/img/guarantees/support.webp");
+}
+
+.icon--faith {
+    background-image: url("../assets/img/guarantees/faith.webp");
+}
+
+.icon--security {
+    background-image: url("../assets/img/guarantees/security.webp");
+}
+
+.icon--vision {
+    background-image: url("../assets/img/guarantees/vision.webp");
+}
+
+.icon--bonus {
+    background-image: url("../assets/img/guarantees/bonus.webp");
 }
 
 .box-69 {
