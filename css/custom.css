@@ -51,6 +51,16 @@ h1 {
     text-align: justify;
 }
 
+.about__photo {
+    max-width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../assets/img/about/desktop/photo.webp");
+}
+
 .guarantees__sub-title {
     max-width: 700px;
     margin: 0 auto;
@@ -157,9 +167,9 @@ h1 {
     background-size: contain;
 }
 
-/*.main--background {*/
-/*    background-image: url("../assets/img/bg/desktop/img-42.webp");*/
-/*}*/
+.main--background {
+    background-image: url("../assets/img/bg/desktop/img-42.webp");
+}
 
 .about--background {
     background-image: url("../assets/img/bg/desktop/img-27.webp");
@@ -179,6 +189,22 @@ h1 {
 
 .background--contacts {
     background-image: url("../assets/img/bg/desktop/img-57.webp");
+}
+
+.certificate1 {
+    background-image: url("../assets/img/certificates/desktop/certificate1.webp");
+}
+
+.certificate2 {
+    background-image: url("../assets/img/certificates/desktop/certificate2.webp");
+}
+
+.certificate3 {
+    background-image: url("../assets/img/certificates/desktop/certificate3.webp");
+}
+
+.certificate4 {
+    background-image: url("../assets/img/certificates/desktop/certificate4.webp");
 }
 
 @media (max-width: 767px) {
@@ -221,13 +247,19 @@ h1 {
         text-align: left;
     }
 
+    .about__photo {
+        width: 100%;
+        height: 320px;
+        background-image: url("../assets/img/about/mobile/photo.webp");
+    }
+
     .price__text {
         padding-top: 0;
     }
 
-    /*.main--background {*/
-    /*    background-image: url("../assets/img/bg/mobile/img-42.webp");*/
-    /*}*/
+    .main--background {
+        background-image: url("../assets/img/bg/mobile/img-42.webp");
+    }
 
     .about--background {
         background-image: url("../assets/img/bg/mobile/img-27.webp");
@@ -247,5 +279,21 @@ h1 {
 
     .background--contacts {
         background-image: url("../assets/img/bg/mobile/img-57.webp");
+    }
+
+    .certificate1 {
+        background-image: url("../assets/img/certificates/mobile/certificate1.webp");
+    }
+
+    .certificate2 {
+        background-image: url("../assets/img/certificates/mobile/certificate2.webp");
+    }
+
+    .certificate3 {
+        background-image: url("../assets/img/certificates/mobile/certificate3.webp");
+    }
+
+    .certificate4 {
+        background-image: url("../assets/img/certificates/mobile/certificate4.webp");
     }
 }
