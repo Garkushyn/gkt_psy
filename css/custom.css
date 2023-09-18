@@ -6,6 +6,14 @@
     font-display: swap
 }
 
+@font-face {
+    font-family: "Source Sans Pro Light";
+    src: url("../assets/fonts/SourceSansPro/SourceSansPro-Light.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap
+}
+
 h1 {
     font-weight: 600;
 }
@@ -54,10 +62,7 @@ h1 {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    margin: 0 auto;
-}
-.icon--position {
-    background-image: url("../assets/img/guarantees/position.webp");
+    margin: 0 auto 20px;
 }
 
 .icon--reliability {
@@ -101,7 +106,11 @@ h1 {
 }
 
 .price__discount {
+
+}
+.price__discount {
     position: relative;
+    font-family: "Source Sans Pro Light" , sans-serif;
 }
 .price__discount:before {
     content: "";
@@ -122,6 +131,7 @@ h1 {
 
 .price__discount-price {
     font-size: 57px;
+    font-family: "Source Sans Pro Light" , sans-serif;
 }
 
 .price__discount-size {
