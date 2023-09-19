@@ -17,7 +17,7 @@ h1 {
     background-size: contain;
 }
 
-.main--mobile {
+.mobile {
     display: none;
 }
 
@@ -103,17 +103,20 @@ h1 {
     margin: 0 auto;
     max-width: 700px;
 }
+
+.price__list {
+    margin-top: 30px;
+}
+
 .price__item {
     background: rgba(255, 255, 255, .7)!important;
+    margin-bottom: 25px;
 }
 
 .price__item--tint {
     background: rgba(230, 245, 243, .7) !important;
 }
 
-.price__discount {
-
-}
 .price__discount {
     position: relative;
     font-family: "Source Sans Pro" , sans-serif;
@@ -142,10 +145,6 @@ h1 {
 
 .price__discount-size {
     font-size: 35px;
-}
-
-.price__text {
-    padding-top: 40px;
 }
 
 .telegram {
@@ -204,11 +203,11 @@ h1 {
 }
 
 @media (max-width: 767px) {
-    .main--mobile {
+    .mobile {
         display: block;
     }
 
-    .main--desktop {
+    .desktop {
         display: none;
     }
 
@@ -226,7 +225,7 @@ h1 {
     }
 
     h1 {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     h2 {
