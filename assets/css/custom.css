@@ -30,7 +30,7 @@ h1 {
 }
 
 .panel .sections .menu {
-    margin-top: 25px;
+    margin-top: 35px;
 }
 
 .main__sub-title {
@@ -221,6 +221,10 @@ h1 {
 
     .desktop {
         display: none;
+    }
+
+    .close {
+        margin-top: 15px;
     }
 
     .panel {
