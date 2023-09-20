@@ -308,6 +308,10 @@ h1 {
         font-size: 18px
     }
 
+    .certificates__list {
+        margin-bottom: 100px;
+    }
+
     .price__text {
         padding-top: 16px;
         margin-bottom: 100px;
