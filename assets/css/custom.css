@@ -56,7 +56,6 @@ h1 {
 }
 
 .main__text {
-    padding-bottom: 30px;
     text-align: justify!important;
 }
 
@@ -286,6 +285,10 @@ h1 {
     .main__text {
         font-size: 16px;
         text-align: left
+    }
+
+    .main__button {
+        margin-bottom: 100px
     }
 
     .about__photo {
