@@ -115,6 +115,20 @@ h1 {
     background-position: center
 }
 
+.leftControl, .rightControl {
+    position: absolute;
+    top: 50%;
+    margin-top: -35px;
+    margin-left: -100px;
+    cursor: pointer;
+}
+
+.rightControl {
+    right: 0;
+    margin-right: -100px;
+}
+
+
 .price__sub-title {
     margin: 0 auto;
     max-width: 700px
