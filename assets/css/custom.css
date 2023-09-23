@@ -18,8 +18,8 @@ h2 {
     background-size: contain
 }
 
-body .mobile {
-    display: none;
+.mobile {
+    display: none
 }
 
 .panel {
@@ -190,6 +190,10 @@ body .mobile {
     background-size: contain
 }
 
+.mobile--icon {
+    display: none;
+}
+
 .insta {
     background-image: url(../img/socials/instagram.webp);
     background-size: contain
@@ -236,7 +240,7 @@ body .mobile {
 }
 
 @media (max-width: 767px) {
-    body .mobile {
+    .mobile {
         display: block
     }
 
@@ -317,6 +321,14 @@ body .mobile {
         width: 50px;
         height: 50px;
         margin: 0 auto 8px;
+    }
+
+    .desktop--icon {
+        display: none;
+    }
+
+    .mobile--icon {
+        display: inline-block;
     }
 
     .flex.later>[class*=col-]:not([class*=col-phone-]) {
