@@ -19,7 +19,7 @@ h2 {
 }
 
 .mobile {
-    display: none
+    display: none!important;
 }
 
 .panel {
