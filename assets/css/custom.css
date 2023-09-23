@@ -241,7 +241,7 @@ h2 {
     }
 
     .desktop {
-        display: none
+        display: none!important;
     }
 
     .close {
