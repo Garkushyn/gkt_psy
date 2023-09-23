@@ -18,8 +18,8 @@ h2 {
     background-size: contain
 }
 
-.mobile {
-    display: none!important;
+body .mobile {
+    display: none;
 }
 
 .panel {
@@ -236,7 +236,7 @@ h2 {
 }
 
 @media (max-width: 767px) {
-    .mobile {
+    body .mobile {
         display: block
     }
 
