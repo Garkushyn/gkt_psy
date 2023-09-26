@@ -11,6 +11,10 @@ h2 {
     font-weight: 600
 }
 
+.strong {
+    font-weight: normal;
+}
+
 .logo {
     width: 130px;
     height: 130px;
@@ -308,6 +312,7 @@ h2 {
     }
 
     .main__button {
+        margin-top: 20px;
         margin-bottom: 100px
     }
 
