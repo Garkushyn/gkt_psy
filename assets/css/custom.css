@@ -250,6 +250,14 @@ h2 {
     background-image: url(../img/certificates/desktop/certificate6.webp)
 }
 
+.certificate7 {
+    background-image: url(../img/certificates/desktop/certificate7.webp)
+}
+
+.certificate8 {
+    background-image: url(../img/certificates/desktop/certificate8.webp)
+}
+
 @media (max-width: 767px) {
     .mobile {
         display: block
@@ -410,5 +418,13 @@ h2 {
 
     .certificate6 {
         background-image: url(../img/certificates/mobile/certificate6.webp)
+    }
+
+    .certificate7 {
+        background-image: url(../img/certificates/mobile/certificate7.webp)
+    }
+
+    .certificate8 {
+        background-image: url(../img/certificates/mobile/certificate8.webp)
     }
 }
