@@ -258,6 +258,22 @@ h2 {
     background-image: url(../img/certificates/desktop/certificate8.webp)
 }
 
+.certificate9 {
+    background-image: url(../img/certificates/desktop/certificate9.webp)
+}
+
+.certificate10 {
+    background-image: url(../img/certificates/desktop/certificate10.webp)
+}
+
+.certificate11 {
+    background-image: url(../img/certificates/desktop/certificate11.webp)
+}
+
+.certificate12 {
+    background-image: url(../img/certificates/desktop/certificate12.webp)
+}
+
 @media (max-width: 767px) {
     .mobile {
         display: block
@@ -426,5 +442,20 @@ h2 {
 
     .certificate8 {
         background-image: url(../img/certificates/mobile/certificate8.webp)
+    }
+    .certificate9 {
+        background-image: url(../img/certificates/mobile/certificate9.webp)
+    }
+
+    .certificate10 {
+        background-image: url(../img/certificates/mobile/certificate10.webp)
+    }
+
+    .certificate11 {
+        background-image: url(../img/certificates/mobile/certificate11.webp)
+    }
+
+    .certificate12 {
+        background-image: url(../img/certificates/mobile/certificate12.webp)
     }
 }
