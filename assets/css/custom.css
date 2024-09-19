@@ -60,6 +60,16 @@ h2 {
     text-align: left
 }
 
+.main__list-item-link {
+    font-weight: bold;
+    background-color: #e91e63;
+    padding: 2px 4px;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
 .main__text {
     text-align: justify !important;
     font-weight: 400
